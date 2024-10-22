@@ -14,8 +14,6 @@ To use the EzyMetrics API, you need to have the following prerequisites:
    https://github.com/p369m/ETL_and_EmailALert.git
    ```
 
-````
-
 2. Navigate to the project directory:
 
    ```bash
@@ -59,11 +57,11 @@ Create a new lead.
 
 ```json
 {
-    "name": "Melissa Munoz",
-    "email": "lisaterrell@murphy-dorsey.com",
-    "phone": "1234567890",
-    "status": "Lost",
-    "source": "Instagram"
+  "name": "Melissa Munoz",
+  "email": "lisaterrell@murphy-dorsey.com",
+  "phone": "1234567890",
+  "status": "Lost",
+  "source": "Instagram"
 }
 ```
 
@@ -115,5 +113,3 @@ EMAIL_RECEIVER=your_email@example.com
 ## Testing the API
 
 You can use tools like [Postman](https://www.postman.com/) or [cURL](https://curl.se/) to test the API endpoints.
-
-````
